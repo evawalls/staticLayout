@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #000000;
+    padding: 0px;
+    text-align: center;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .social a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 0px;
+    text-decoration: none;
+    width:33.33%
+  }
+  
+  .social a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .row:carosel {
+    background-color: #ddd;
+    float: center;
+    width: 100%;
+    padding: 15px;
+  }
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
